@@ -7,4 +7,6 @@ public class Order
     public string Address{get;set;}="";
     public string Phone{get;set;}="";
     public string Status{get;set;}="Pending";
+    public int? CourierId{get;set;}
+    public User? Courier { get; set; }
 }
